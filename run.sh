@@ -1,0 +1,1 @@
+ssh -oStrictHostKeyChecking=no pi@pi4.local 'source ~/.zshrc; cd /home/pi/testing; pm2 restart app; pm2 logs app'
